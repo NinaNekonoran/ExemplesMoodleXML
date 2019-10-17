@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<quiz>
+	<question type="truefalse">
+		<name>
+			<text>Le NOM de la question</text>
+		</name>
+		<questiontext format="html">
+			<text>ça va?</text>
+		</questiontext>
+		<penalty>1</penalty>
+		<defaultgrade>1</defaultgrade>
+				 <answer fraction="100">
+		    <text>true</text>
+		    <feedback><text>Correct!</text></feedback>
+		 </answer>
+		 <answer fraction="0">
+		    <text>false</text>
+		    <feedback><text>Ooops!</text></feedback>
+		 </answer>
+		<shuffleanswers>true</shuffleanswers>
+	</question>
+
+
+</quiz>
